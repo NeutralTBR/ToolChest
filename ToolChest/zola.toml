@@ -1,11 +1,10 @@
-# The URL the site will be built for
 base_url = "https://example.com"
-
-# Whether to automatically compile all Sass files in the sass directory
+theme = "goyo"
 compile_sass = true
-
-# Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
+
+[search]
+include_content = false
 
 [markdown]
 
@@ -14,3 +13,8 @@ theme = "catppuccin-mocha"
 
 [extra]
 # Put all your custom variables here
+nav = []
+
+[extra.sidebar]
+expand_depth = 1
+disable_root_hide = true

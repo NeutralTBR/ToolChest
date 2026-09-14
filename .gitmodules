@@ -1,0 +1,3 @@
+[submodule "ToolChest/themes/goyo"]
+	path = ToolChest/themes/goyo
+	url = https://github.com/hahwul/goyo
