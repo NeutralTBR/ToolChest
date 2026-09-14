@@ -14,7 +14,7 @@ mermaid = false
 6. [Jaithon](https://github.com/abhiramasonny/jaithon)
 7. [Creusot](https://creusot.rs/)
 8. [ArcadeMaker](https://github.com/ArcadeMakerSources/ArcadeMaker)
-9.  [OpenToonz](https://opentoonz.github.io/)
+9. [OpenToonz](https://opentoonz.github.io/)
 10. [Elena](https://elenajs.com/)
 11. [BiomeJS](https://biomejs.dev/)
 12. [HyperMarkDown](https://hypermarkdown.org/)
