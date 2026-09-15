@@ -51,7 +51,6 @@ jobs:
           args: >-
             --verbose
             --no-progress
-            --exclude-mail
             --timeout 20
             --accept 200..=204,429
             --root-dir public
