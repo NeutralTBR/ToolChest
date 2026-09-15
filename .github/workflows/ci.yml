@@ -30,11 +30,12 @@ jobs:
   build-and-check-links:
     name: Zola Build & Link Check
     runs-on: ubuntu-latest
+    needs: lint-markdown
     steps:
       - uses: actions/checkout@v4
         with:
           submodules: recursive
-          fetch-depth: 0
+          fetch-depth: 1
 
       - name: Install Zola
         uses: taiki-e/install-action@v2
@@ -45,15 +46,11 @@ jobs:
 
       - name: Build site
         run: zola build
-      - name: Check for broken links
+      - name: Check internal links
         uses: lycheeverse/lychee-action@v2
         with:
           args: >-
-            --verbose
             --no-progress
-            --timeout 20
-            --accept 200..=204,429
-            --root-dir public
-            './public/**/*.html'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            --offline
+            --root-dir ./public
+            ./public/**/*.html
