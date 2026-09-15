@@ -3,6 +3,10 @@ name: Site CI
 on:
   push:
     branches: [ main ]
+    paths-ignore: 
+      - "README.md"
+      - "LICENSE*"
+      - ".gitignore"
   pull_request:
     branches: [ main ]
 
