@@ -53,4 +53,4 @@ jobs:
             --no-progress
             --offline
             --root-dir ./public
-            ./public
+            ./public/**/*.html
