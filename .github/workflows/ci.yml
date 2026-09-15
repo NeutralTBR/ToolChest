@@ -3,9 +3,18 @@ name: Site CI
 on:
   push:
     branches: [ main ]
+    paths-ignore: 
+      - "README.md"
+      - "LICENSE*"
+      - ".gitignore"
   pull_request:
     branches: [ main ]
-
+  workflow_dispatch:   
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+permissions:
+  contents: read  
 jobs:
   lint-markdown:
     name: Lint Markdown
@@ -31,13 +40,20 @@ jobs:
         uses: taiki-e/install-action@v2
         with:
           tool: zola@0.22.1
+      - name: Check Zola integrity
+        run: zola check  
 
       - name: Build site
         run: zola build
-
       - name: Check for broken links
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --verbose --no-progress --root-dir public './public/**/*.html'
+          args: >-
+            --verbose
+            --no-progress
+            --timeout 20
+            --accept 200..=204,429
+            --root-dir public
+            './public/**/*.html'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
