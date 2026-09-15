@@ -22,3 +22,6 @@ mermaid = false
 14. [11ty](https://www.11ty.dev/)
 15. [Docusaurus](https://docusaurus.io/)
 16. [Sonarcloud](https://www.sonarsource.com/products/sonarqube/cloud/)
+17. [Robot Framework](https://robotframework.org/)
+18. [Revo](https://revo.lung.fyi/)
+19. [Scroll](https://scroll.surf/)
