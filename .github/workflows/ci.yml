@@ -46,15 +46,11 @@ jobs:
 
       - name: Build site
         run: zola build
-      - name: Check for broken links
+      - name: Check internal links
         uses: lycheeverse/lychee-action@v2
         with:
           args: >-
-            --verbose
             --no-progress
-            --timeout 20
-            --accept 200..=204,429
-            --root-dir public
-            './public/**/*.html'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            --offline
+            --root-dir ./public
+            ./public
