@@ -47,3 +47,28 @@ jobs:
             --offline
             --root-dir "$(pwd)/public"
             './public/**/*.html'
+    
+  deploy:
+    name: Deploy to Surge
+    needs: ci
+    if: github.event_name == 'push' && github.ref == 'refs/head/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          submodules: recursive
+      - name: Install Zola
+        uses: taiki-e/install-action@26e9283f268b880168bdbd2c545dfcd60ec2c6ab # v2.87.13
+        with:
+          tool: zola@0.22.1
+      - name: Build site
+        run: zola build
+      - name: Install surge
+        run: npm install --global surge
+      - name: Publish
+        run: surge ./public toolchest.surge.sh
+        env:
+          SURGE_LOGIN: ${{ secrets.SURGE_LOGIN }}
+          SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
