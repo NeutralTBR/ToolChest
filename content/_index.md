@@ -6,6 +6,8 @@ math = false
 mermaid = false
 +++
 
+<!-- markdownlint-disable MD034 MD013 -->
+
 {% tool(title="1. AntJS", url="https://antjs.org/") %}
 lightweight, high-performance JavaScript runtime built from scratch
 {% end %}
