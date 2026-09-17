@@ -1,0 +1,18 @@
+<details class="collapse collapse-arrow bg-base-200 border border-base-300 rounded-box my-2" name="toolchest">
+    <summary class="collapse-title font-semibold text-lg flex items-center justify-between pr-12">
+        <span>{{ title }}</span>
+        {% if url %}
+        <a  href="{{ url }}"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="link link-primary text-sm font-normal z-10 hover:underline"
+            onclick="event.stopPropagation();"
+        >
+        Visit site &nearr;
+        </a>
+        {% endif %}
+    </summary>
+    <div class="collapse-content">
+        {{ body | markdown | safe }}
+    </div>
+</details>
