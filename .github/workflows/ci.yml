@@ -51,7 +51,7 @@ jobs:
   deploy:
     name: Deploy to Surge
     needs: ci
-    if: github.event_name == 'push' && github.ref == 'refs/head/main'
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
