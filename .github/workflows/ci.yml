@@ -34,7 +34,7 @@ jobs:
         with:
           globs: "content/**/*.md"
       - name: Install Zola
-        uses: taiki-e/install-action@26e9283f268b880168bdbd2c545dfcd60ec2c6ab # v2.87.13
+        uses: taiki-e/install-action@4cef1412cce204788f482e778a0b9187f9626a29 # v2.87.21
         with:
           tool: zola@0.22.1
       - name: Build site
@@ -60,7 +60,7 @@ jobs:
         with:
           submodules: recursive
       - name: Install Zola
-        uses: taiki-e/install-action@26e9283f268b880168bdbd2c545dfcd60ec2c6ab # v2.87.13
+        uses: taiki-e/install-action@4cef1412cce204788f482e778a0b9187f9626a29 # v2.87.21
         with:
           tool: zola@0.22.1
       - name: Build site
