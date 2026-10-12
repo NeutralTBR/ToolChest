@@ -1,0 +1,23 @@
+{% set data = load_data(path="tools.toml", format="toml") %}
+
+<div class="space-y-12">
+    {% for tool in data.tools %}
+    <details class="collapse collapse-arrow bg-base-200 border border-base-300 rounded-box" name="toolbox">
+    <summary class="collapse-title font-semibold text-lg flex items-center justify-between pr-12">
+    <span>{{ loop.index }}. {{ tool.name }}</span>
+    {% if tool.url %}
+        <a 
+            href="{{ tool.url }}"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="link link-primary text-sm font-normal z-10 hover:underline"
+            onclick="event.stopPropagation();"
+        >Visit site &nearr;</a>
+    {% endif %}
+    </summary>
+    <div class="collapse-content text-base-content/80">
+    <p class="py-2">{{ tool.desc }}</p>
+    </div>
+    </details>
+    {% endfor %}
+</div>
