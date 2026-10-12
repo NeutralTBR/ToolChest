@@ -1,0 +1,99 @@
+[[tools]]
+name = "AntJS"
+url = "https://antjs.org/"
+desc = "lightweight, high-performance JavaScript runtime built from scratch"
+
+[[tools]]
+name = "InertiaJS"
+url = "https://inertiajs.com/"
+desc = "build SPAs using server-side rendering and traditional server-side routing"
+
+[[tools]]
+name = "Klar"
+url = "https://github.com/ProCode-Software/klar"
+desc = "progressive programming language"
+
+[[tools]]
+name = "TurboKV"
+url = "https://github.com/kingroryg/turbokv"
+desc = "fast, simple, and embedded key-value store for Rust"
+
+[[tools]]
+name = "Typebase"
+url = "https://typebase.io/"
+desc = "type-safe backend written as TypeScript files inside existing app"
+
+[[tools]]
+name = "Jaithon"
+url = "https://github.com/abhiramasonny/jaithon"
+desc = "dynamically executed and garbage collected language with a bytecode VM"
+
+[[tools]]
+name = "Creusot"
+url = "https://creusot.rs/"
+desc = "deductive verifier for Rust"
+
+[[tools]]
+name = "ArcadeMaker"
+url = "https://github.com/ArcadeMakerSources/ArcadeMaker"
+desc = "cross-platform 2D game engine with its own programming language and IDE"
+
+[[tools]]
+name = "OpenToonz"
+url = "https://opentoonz.github.io/"
+desc = "open-source full-featured 2D animation creation software"
+
+[[tools]]
+name = "Elena"
+url = "https://elenajs.com/"
+desc = "simple, tiny library for building Progressive Web Components"
+
+[[tools]]
+name = "BiomeJS"
+url = "https://biomejs.dev/"
+desc = "fast formatter & performance linter for JavaScript, TypeScript, JSX, JSON, CSS and GraphQL"
+
+[[tools]]
+name = "HyperMarkDown"
+url = "https://hypermarkdown.org/"
+desc = "markdown + links to knowledge graph"
+
+[[tools]]
+name = "Astro"
+url = "https://astro.build/"
+desc = "JavaScript web framework optimized for building fast, content-driven websites"
+
+[[tools]]
+name = "11ty"
+url = "https://www.11ty.dev/"
+desc = "simple yet powerful static site generator"
+
+[[tools]]
+name = "Docusaurus"
+url = "https://docusaurus.io/"
+desc = "optimized site generator in React"
+
+[[tools]]
+name = "Sonarcloud"
+url = "https://www.sonarsource.com/products/sonarqube/cloud/"
+desc = "automated code reviews"
+
+[[tools]]
+name = "Robot Framework"
+url = "https://robotframework.org/"
+desc = "open source automation framework for test automation and RPA"
+
+[[tools]]
+name = "Revo"
+url = "https://revo.lung.fyi/"
+desc = "expressive, dynamically-typed programming language"
+
+[[tools]]
+name = "Scroll"
+url = "https://scroll.surf/"
+desc = "extensible markup language and static site generator"
+
+[[tools]]
+name = "Expo"
+url = "https://expo.dev/"
+desc = "open-source framework for making universal native apps with React"
