@@ -97,3 +97,33 @@ desc = "extensible markup language and static site generator"
 name = "Expo"
 url = "https://expo.dev/"
 desc = "open-source framework for making universal native apps with React"
+
+[[tools]]
+name = "Mirotalk"
+url = "https://github.com/miroslavpejic85/mirotalk"
+desc = "open-source, self-hosted P2P WebRTC video conferencing"
+
+[[tools]]
+name = "dnSpyEx"
+url = "https://github.com/dnSpyEx/dnSpy"
+desc = "debugger and .NET assembly editor"
+
+[[tools]]
+name = "Jitsi Meet"
+url = "https://jitsi.org/jitsi-meet/"
+desc = "open-source video conferencing"
+
+[[tools]]
+name = "Forgix"
+url = "https://github.com/PacifistMC/Forgix"
+desc = "combine multiple plugin/modloaders into one jar"
+
+[[tools]]
+name = "Azahar"
+url = "https://azahar-emu.org/"
+desc = "open-source 3DS emulator based on Citra"
+
+[[tools]]
+name = "Quik"
+url = "https://github.com/quik-sms/quik"
+desc = "open source replacement to the stock messaging app on Android"
