@@ -127,3 +127,88 @@ desc = "open-source 3DS emulator based on Citra"
 name = "Quik"
 url = "https://github.com/quik-sms/quik"
 desc = "open source replacement to the stock messaging app on Android"
+
+[[tools]]
+name = "Zettlr"
+url = "https://www.zettlr.com/"
+desc = "FOSS Markdown editor"
+
+[[tools]]
+name = "Templ"
+url = "https://templ.guide/"
+desc = "language for writing HTML UIs in Go"
+
+[[tools]]
+name = "VulpesCloud"
+url = "https://github.com/VulpesCloud/VulpesCloud"
+desc = "manage Minecraft server network"
+
+[[tools]]
+name = "Leaf"
+url = "https://www.leafmc.one/"
+desc = "Paper fork focused on finding the balance between performance, vanilla mechanics, and stability"
+
+[[tools]]
+name = "DSPy"
+url = "https://dspy.ai/current/"
+desc = "Python framework for building AI systems"
+
+[[tools]]
+name = "Chemical"
+url = "https://chemicallang.com/"
+desc = "native, memory-safe systems programming language with HTML/CSS macros and no garbage collector"
+
+[[tools]]
+name = "Jaiva"
+url = "https://github.com/jaiva-lang/jaiva"
+desc = "esoteric functional programming language written in Java"
+
+[[tools]]
+name = "Flix"
+url = "https://flix.dev/"
+desc = "statically typed functional, imperative, and logic programming language"
+
+[[tools]]
+name = "Dory"
+url = "https://github.com/clidey/dory"
+desc = "lightweight SSG for technical documentation"
+
+[[tools]]
+name = "EO"
+url = "https://github.com/objectionary/eo"
+desc = "OOP language based on 𝜑-calculus"
+
+[[tools]]
+name = "SurfSense"
+url = "https://www.surfsense.com/"
+desc = "air-gapped, open-source NotebookLM alternative"
+
+[[tools]]
+name = "@hybrid-compute"
+url = "https://github.com/phun-ky/hybrid-compute"
+desc = " flexible, modular compute orchestration framework that dispatches computational tasks to the most appropriate backend"
+
+[[tools]]
+name = "Changerawr"
+url = "https://supersoft.us/changerawr"
+desc = "changelog software"
+
+[[tools]]
+name = "AI-DECLARATION.md"
+url = "https://ai-declaration.md/"
+desc = "open standard for declaring AI usage in software projects"
+
+[[tools]]
+name = "Qwik"
+url = "https://qwik.dev/"
+desc = "fast web app framework"
+
+[[tools]]
+name = "NestJS"
+url = "https://nestjs.com/"
+desc = "framework for building efficient, scalable Node.js server-side applications"
+
+[[tools]]
+name = "Gatsby"
+url = "https://www.gatsbyjs.com/"
+desc = "React-based web framework"
